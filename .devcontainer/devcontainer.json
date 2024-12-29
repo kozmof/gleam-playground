@@ -1,0 +1,14 @@
+{
+    "name": "Gleam Playground",    
+    "dockerFile": "../Dockerfile",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "mhutchie.git-graph",
+          "tamasfe.even-better-toml",
+          "gleam.gleam",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
+}
