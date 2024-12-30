@@ -15,7 +15,7 @@ RUN cd /tmp && \
   export ERL_TOP=`pwd` && \
   ./configure && make && make install
 
-# Install Node.js for the case of `gleam run --target javascript`
+# Install Node.js to use `gleam run --target javascript`
 RUN cd /tmp && \
   curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh && \
   bash nodesource_setup.sh && \
